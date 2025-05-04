@@ -50,7 +50,7 @@ user_entry = tk.Entry(root, width=40)
 user_entry.pack(padx=10, pady=5)
 send_button = tk.Button(root, text="Send", command=send_message)
 send_button.pack(pady=5)
-frame.pack(pady=10)
+
 
 # Start GUI
 root.mainloop()
