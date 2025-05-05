@@ -1,0 +1,78 @@
+ What is Google App Engine (GAE)?
+Answer:
+Google App Engine is a Platform as a Service (PaaS) that lets you build and deploy applications on Google Cloud without managing the infrastructure.
+
+2. What are the prerequisites to install Google App Engine?
+Answer:
+You need:
+
+Google Cloud SDK
+
+A Google account
+
+A GCP project with App Engine API enabled
+
+3. How do you install Google Cloud SDK?
+Answer:
+
+Download from cloud.google.com/sdk
+
+Install and run:
+
+csharp
+Copy
+Edit
+gcloud init
+4. How do you create a project in Google Cloud?
+Answer:
+
+Go to https://console.cloud.google.com
+
+Click “New Project”
+
+Set a name, billing account, and create it
+
+5. How do you enable App Engine for your project?
+Answer:
+Run in terminal:
+
+lua
+Copy
+Edit
+gcloud app create
+Then select your region.
+
+6. How do you install App Engine component for your language?
+Answer:
+Example for Python:
+
+nginx
+Copy
+Edit
+gcloud components install app-engine-python
+7. What is the purpose of app.yaml file?
+Answer:
+It is a configuration file that tells App Engine how to run your app (runtime, entry point, etc.).
+
+8. How do you deploy an app to App Engine?
+Answer:
+Use the command:
+
+nginx
+Copy
+Edit
+gcloud app deploy
+9. How can you access the deployed app?
+Answer:
+Run:
+
+nginx
+Copy
+Edit
+gcloud app browse
+or open the provided URL after deployment.
+
+10. Which languages does App Engine support?
+Answer:
+Python, Java, Node.js, Go, PHP, Ruby, and .NET.
+
