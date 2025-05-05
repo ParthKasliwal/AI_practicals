@@ -1,0 +1,63 @@
+1. What is Salesforce?
+Answer:
+Salesforce is a cloud-based Customer Relationship Management (CRM) platform that allows businesses to manage sales, service, marketing, and custom applications.
+
+2. What is Salesforce Cloud used for?
+Answer:
+It provides various services like Sales Cloud, Service Cloud, Marketing Cloud, and allows creating custom applications using Force.com.
+
+3. How do you create a custom application in Salesforce?
+Answer:
+Go to Setup > App Manager > New Lightning App, enter details, add objects and assign user profiles.
+
+4. What are Objects in Salesforce?
+Answer:
+Objects are like database tables. There are Standard Objects (like Account, Contact) and Custom Objects (created by users).
+
+5. How do you create a Custom Object?
+Answer:
+Go to Setup > Object Manager > Create > Custom Object, define fields and relationships.
+
+6. What are Fields in Salesforce?
+Answer:
+Fields are like columns in a table. You can add custom fields like text, number, date, etc., to objects.
+
+7. What are Record Types?
+Answer:
+Record Types allow you to offer different business processes, picklist values, and page layouts to different users.
+
+8. What is a Page Layout in Salesforce?
+Answer:
+It controls the layout and visibility of fields, sections, and buttons on a record’s detail page.
+
+9. What is a Lightning Component?
+Answer:
+It is a reusable UI component built using the Lightning framework to enhance app functionality.
+
+10. How do you deploy your custom app to users?
+Answer:
+Assign the app to user profiles or permission sets and make it visible in the App Launcher.
+
+11. What is Apex in Salesforce?
+Answer:
+Apex is Salesforce’s object-oriented programming language used for writing custom business logic.
+
+12. What is a Trigger in Salesforce?
+Answer:
+A trigger is Apex code that runs before or after insert, update, delete, or undelete operations on Salesforce records.
+
+13. What is Visualforce?
+Answer:
+It’s a markup language used to create custom user interfaces in Salesforce.
+
+14. What is the difference between Workflow and Process Builder?
+Answer:
+
+Workflow: Limited to field updates, tasks, emails.
+
+Process Builder: More powerful, can handle complex logic and multiple actions.
+
+15. How is security managed in custom apps?
+Answer:
+Using Profiles, Roles, Permission Sets, Object/Field-level Security, and Sharing Rules.
+
